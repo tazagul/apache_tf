@@ -24,7 +24,7 @@ Default output format [None]: json
 
 SOLUTION: 
 
-1. provider.tf - defienes service provider and the region where the resources will be created. 
+1. provider.tf - A provider is responsible for understanding API interactions and exposing resources. 
 2. key.tf - creates a key and stores it in the region you define in var.tf file. And it is used to connect to the created instance via ssh.
 3. sg.tf - creates a security group to open ports 22, 80, and 443. 
 Port  22 -Secure Shell (SSH) - used for secure logins. 
