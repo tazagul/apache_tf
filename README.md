@@ -1,6 +1,6 @@
 Installing and launching an apache server hosted on AWS using Terraform.
 
-Acceptance criteria:
+ACCEPTANCE CTITERIA:
 1. Download and extract the  latest release of the Terraform. 
 
 [Download Terraform - Terraform by HashiCorp](https://www.terraform.io/downloads.html)
@@ -35,7 +35,7 @@ Port 443-*Port 443* is mainly used by web servers providing HTTPS (HTTP encrypte
 6. Output.tf - gives you a public IP of your instance.
 7. Var.tf - contains variables where to create an instance, the size of an instance and private/public key to login to the instance.
 
-How to use this code:
+HOW TO USE THIS CODE:
 
 1. Clone this repo
 2. Edit the var.tf file
