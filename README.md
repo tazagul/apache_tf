@@ -1,4 +1,4 @@
-Installing and launching an apache server hosted on AWS.
+Installing and launching an apache server hosted on AWS using Terraform.
 
 Acceptance criteria:
 1. Download and extract the  latest release of the Terraform. 
