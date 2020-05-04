@@ -11,7 +11,7 @@ resource "aws_instance" "instance" {
       host          = self.public_ip
       type          = "ssh"
       user          = "centos"
-      private_key   = file("~/.ssh/id_rsa")
+      private_key   = file(var.PATH_TO_PRIVATE_KEY)
       }
       inline = [
         "sudo yum install httpd -y",
