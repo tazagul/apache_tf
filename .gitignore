@@ -6,4 +6,4 @@
 *.tfstate.*
 
 # .tfvars files
-vars.tf
+var.tf
